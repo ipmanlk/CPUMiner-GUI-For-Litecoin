@@ -224,7 +224,7 @@ Partial Class MainForm
 		Me.earnTheme1.SmartBounds = true
 		Me.earnTheme1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.earnTheme1.TabIndex = 0
-		Me.earnTheme1.Text = "CPUMiner GUI 0.1 Beta For Litecoin"
+		Me.earnTheme1.Text = "CPUMiner GUI For Litecoin"
 		Me.earnTheme1.TransparencyKey = System.Drawing.Color.Fuchsia
 		Me.earnTheme1.Transparent = false
 		AddHandler Me.earnTheme1.Click, AddressOf Me.EarnTheme1Click
@@ -279,7 +279,7 @@ Partial Class MainForm
 		Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
 		Me.Name = "MainForm"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-		Me.Text = "CPUMiner GUI 0.1 Beta For Litecoin"
+		Me.Text = "CPUMiner GUI For Litecoin"
 		Me.TransparencyKey = System.Drawing.Color.Fuchsia
 		AddHandler FormClosed, AddressOf Me.MainFormFormClosed
 		AddHandler Load, AddressOf Me.MainFormLoad
